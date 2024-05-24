@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Home{% endblock title %}
+
+{% block content %}
+<h1>About me</h1>
+<div class="flexRow">
+    <div>
+        <p>Things that I like:</p>
+        <ul>
+            <li>Video games</li>
+            <li>Horror books</li>
+            <li>Play basketball</li>
+            <li>Play guitar</li>
+            <li>Eat lasagna</li>
+        </ul>
+    </div>
+    <img src="{% static 'img/MyFoto.jpeg' %}" style="width: 10rem">
+</div>
+{% endblock content %}
